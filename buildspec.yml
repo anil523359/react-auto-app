@@ -7,7 +7,7 @@ phases:
   pre_build:
     commands:
       - cd myapp
-      - echo "Installing source NPM dependencies..."
+      - echo Installing source NPM dependencies...
       - npm install
   build:
     commands:
