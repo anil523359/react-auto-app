@@ -9,7 +9,7 @@ phases:
       - mkdir myapp
       - cd myapp
       - echo Installing source NPM dependencies...
-      - npm install
+      - npm install -y
   build:
     commands:
       - echo Build started on 'date'
