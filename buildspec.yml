@@ -6,7 +6,7 @@ phases:
       nodejs: 18
   pre_build:
     commands:
-      - cd server
+      - cd myapp
       - echo "Installing source NPM dependencies..."
       - npm install
   build:
@@ -17,6 +17,6 @@ phases:
 artifacts:
   files:
     - '**/*'
-    #- "server/build/**/*"
-  base-directory: 'server/build'
+    #- "myapp/build/**/*"
+  base-directory: 'myapp/build'
   #discard-paths: yes
